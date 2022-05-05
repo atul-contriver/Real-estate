@@ -1830,3 +1830,16 @@ li {
 
 /********************************************/
 
+
+/* 
+@media screen and (min-width: 900px) {
+    .navbar-light .navbar-toggler {
+      display: none;
+    }
+  } */
+
+  @media (min-width: 991px) {
+.sidebar_icon , .offcanvas {
+    display: none !important;
+} }
+
